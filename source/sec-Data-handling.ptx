@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Data-handling" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Data handling</title>
+  <subsection xml:id="subsec-Meaning-of-data">
+    <title>Meaning of data</title>
+       <p>
+           Data is a collection of facts such as numbers and measurements that we learn, make decisions or solve problems.
+       </p> 
+        <p>
+            An example of data in a market could be the information collected about what customers buy and how much they spend. 
+        </p>
+        <p>
+            Moraa owns a fruit stall, and she records the following information for one day:
+        </p>
+        <ul>
+            <li>Customer Names: Ekadeli, Mbasu, Baya</li>
+            <li>Items Bought: Apples, Bananas, Oranges</li>
+            <li>Quantity: 5 apples, 3 bananas, 2 oranges</li>
+            <li>Price Paid: Ksh250, ksh100, ksh150</li>
+        </ul>
+        <p>
+            This information is data because it tells you what your customers bought, how much they bought, and how much they spent.
+            You could use this data to figure out things like:
+            <ul>
+                <li>Which fruit was bought the most?</li>
+                <li>How much money you earned in a day.</li>
+                <li>What to stock more of next time to meet demand.</li>   
+            </ul>
+        </p>
+       <p>
+           This is how data helps businesses make decisions.
+       </p>
+    <activity> 
+        <p>
+            Work in groups
+        </p>
+        <p>
+                (i) Each learner state their understanding of the term data.
+      </p>
+            <p>
+                (ii) Search for the meaning of data from different sources.
+            </p>
+            <p>
+                (iii) Discuss and compare with other groups.
+            </p>
+
+    </activity>
+    
+  </subsection>
+
+   <p>
+    Learning point
+   </p>
+   <p>
+    <ul>
+        <li>
+            <p>
+              Data is a collection of facts such as numbers and measurements collected to represent information.
+            </p>
+        </li>
+    </ul>
+   </p>
+   <subsection xml:id="subsec-Collection-of-data">
+    <title>Collection of data</title>
+    <p>
+        A collection of data refers to the process of gathering and assembling relevant pieces of information or facts from various sources for analysis or use.
+    </p>
+    <p>
+        This data can be quantitative (numerical) or qualitative (descriptive) and is typically organized in a structured manner to allow for efficient examination or decision-making.
+    </p> 
+    <p>
+        Data collection can take many forms, such as:
+    </p>
+    <ol>
+        <li>Surveys and questionnaires: Gathering responses from individuals</li>
+        <li>Experiments: Recording observations or measurements during controlled experiments.</li>
+        <li>Interviews: Collecting qualitative data through direct interactions.</li>
+    </ol>
+    <activity>
+   <p>
+    Work in groups
+   </p> 
+    <p>
+        (i) Collect data on the number of classrooms in your school.
+    </p>
+    <p>
+       (ii) Count the number of textbooks for each subject in your class. 
+    </p>
+    <p>
+        (iii) Collect data on the number of male and female in your class.
+    </p> 
+    <p>
+        (iv) Collect information on the number of left handed students in your class.
+    </p>
+    <p>
+        (v) Discuss and compare with other groups.
+    </p>
+   </activity>
+    
+   </subsection>
+   
+   <p>
+    Learning point
+   </p>
+   <ul>
+    <li>
+        <p>
+           Data collected from different situations vary from each other. 
+        </p>
+    </li>
+   </ul>
+   
+   <subsection xml:id="subsec-Frequency-distribution-table">
+    <title>Frequency distribution table</title>
+    <p>
+        A frequency distribution table displays the frequency of each data set in an organized way.
+    </p>
+    <p>
+        It helps us to find patterns in the data and also enables us to analyze the data using measures of central tendency and variance.
+    </p>
+    <activity>
+    <p>
+        Work in groups
+    </p>
+    <p>
+        (i) Consider the following list showing the favourite fruits for learners.
+    </p>
+   
+    <table>
+    <title>Frequency distribution table</title>
+    <tabular left="medium" right="medium" top="medium" bottom="medium">
+        <row halign="center" header="yes">
+            <cell>Learner</cell>
+            <cell>Fruit</cell>
+        </row>
+        <row>
+            <cell>Kemunto</cell>
+            <cell>Banana</cell>
+        </row>
+        <row>
+            <cell>Otieno</cell>
+            <cell>Apple</cell>
+        </row>
+        <row>
+            <cell>Kamau</cell>
+            <cell>Apple</cell>
+        </row>
+        <row>
+            <cell>Esipisu</cell>
+            <cell>Banana</cell>
+        </row>
+        <row>
+            <cell>Omar</cell>
+            <cell>Guava</cell>
+        </row>
+        <row>
+            <cell>Sidika</cell>
+            <cell>Apple</cell>
+        </row>
+        <row>
+            <cell>Nanjala</cell>
+            <cell>Guava</cell> 
+        </row>
+        <row>
+            <cell>Njoki</cell>
+            <cell>Banana</cell>
+        </row>
+        <row>
+            <cell>Sagar</cell>
+            <cell>Guava</cell>
+        </row>
+        <row>
+            <cell>Baraza</cell>
+            <cell>Banana</cell>
+        </row>
+        <row>
+             <cell>Anyango</cell>
+            <cell>Banana</cell>
+        </row>
+        <row>
+            <cell>Issa</cell>
+            <cell>Banana</cell>
+        </row>
+
+    </tabular>
+   </table>
+        <p>
+            (ii) Represent the information in a table that has Fruit, Tally and Frequency.
+        </p>
+        <p>
+            (iii) Compare and discuss with other groups.
+        </p>
+   </activity>
+    
+   </subsection>
+   <p>
+    Learning points
+   </p>
+   <ol>
+    <li>
+        <p>
+            A tally mark represents one unit. One mark represent a frequency of one.
+        </p>
+    </li>
+    <li>
+        <p>
+            A table having one unit and the number of times it occurs is a frequency table
+        </p>
+    </li>
+   </ol> 
+   <example>
+    <p>
+        The height, in centimetres, of 30 tree seedlings were recorded as follows:
+    </p>
+    <p>
+        15 20 18 15 20 15 16 14 20 14 12 14 15 16 10
+    </p> 
+    <p>
+        12 10 16 18 15 16 11 13 16 14 12 17 16 20 19
+    </p>
+   
+       <p>
+           Draw a frequency distribution table to represent this information.
+       </p>
+    <solution>
+       <table>
+        <title></title>
+        <tabular left="medium" right="medium" top="medium" bottom="medium">
+            <row halign="center" header="yes">
+                <cell>Height</cell>
+                <cell>Tally</cell>
+                <cell>Frequency</cell>
+            </row>
+            <row>
+                <cell>10</cell>
+                <cell>//</cell>
+                <cell>2</cell>
+            </row>
+            <row>
+                <cell>11</cell>
+                <cell>/</cell>
+                <cell>1</cell>
+            </row>
+            <row>
+                <cell>12</cell>
+                <cell>///</cell>
+                <cell>3</cell>
+            </row>
+            <row>
+                <cell>13</cell>
+                <cell>/</cell>
+                <cell>1</cell>
+            </row>
+            <row>
+                <cell>14</cell>
+                <cell>////</cell>
+                <cell>4</cell>
+            </row>
+            <row>
+                <cell>15</cell>
+                <cell>/////</cell>
+                <cell>5</cell>
+            </row>
+            <row>
+                <cell>16</cell>
+                <cell>//////</cell>
+                <cell>6</cell>
+            </row>
+            <row>
+                <cell>17</cell>
+                <cell>/</cell>
+                <cell>1</cell>
+            </row>
+            <row>
+                <cell>18</cell>
+                <cell>//</cell>
+                <cell>2</cell>
+            </row>
+            <row>
+                <cell>19</cell>
+                <cell>/</cell>
+                <cell>1</cell>
+            </row>
+            <row>
+                <cell>20</cell>
+                <cell>////</cell>
+                <cell>4</cell>
+            </row>
+        </tabular>
+       </table>
+    </solution>
+    </example>
+   <subsection xml:id="subsec-Suitable-scale-for-graphs-of-data">
+    <title>Suitable scale for graphs of data</title>
+     <activity>
+        <p>
+            work in groups
+        </p>
+        <p>
+            (i) consider the table below
+        </p>
+        <table>
+            <title></title>
+            <tabular left="medium" right="medium" top="medium" bottom="medium">
+                <row halign="left" header="yes">
+                    <cell>Marks</cell>
+                    <cell>Frequency</cell>
+                </row>
+                <row>
+                    <cell>4</cell>
+                    <cell>2</cell>
+                </row>
+                <row>
+                    <cell>5</cell>
+                    <cell>10</cell>
+                </row>
+                <row>
+                    <cell>6</cell>
+                    <cell>5</cell>
+                </row>
+                <row>
+                    <cell>7</cell>
+                    <cell>20</cell>
+                </row>
+                <row>
+                    <cell>8</cell>
+                    <cell>3</cell>
+                </row>
+                <row>
+                    <cell>9</cell>
+                    <cell>4</cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            (ii) Determine a suitable scale you would use to draw a bar graph.
+        </p>
+        <p>
+            (iii) Discuss and compare with other groups.
+        </p>
+    </activity>
+   </subsection>
+   
+   
+    <p>
+        Learning point
+    </p>
+        <p>
+            A suitable scale should be chosen in such a way that data is easy to plot and easy to read.
+        </p>
+    <subsection xml:id="subsec-Pictographs-of-data">
+        <title>Pictographs of data</title>
+        <p>
+            A pictograph is a type of data visualization that uses pictures or symbols to represent and convey data.
+        </p>
+        <p>
+            Each picture or symbol typically represents a specific quantity or value, making it easier to understand and interpret data.
+        </p>
+    <activity>
+        <p>
+            Work in groups 
+        </p>
+        <p>
+            (i) Consider the table shown
+        </p>
+        <table>
+            <title>Favourite musical instrument</title>
+            <tabular left="medium" right="medium" top="medium" bottom="medium">
+               
+                <row halign="center" header="yes">
+                    <cell>🎸</cell>
+                    <cell>😊😊😊😊</cell>
+                </row>
+                <row>
+                    <cell>🥁</cell>
+                    <cell>😊😊</cell>
+                </row>
+                <row>
+                    <cell>🎹</cell>
+                    <cell>😊😊😊</cell>
+                </row>
+                <row>
+                    <cell>🪈</cell>
+                    <cell>😊😊😊😊😊</cell>
+                </row>
+            </tabular>
+        </table>
+
+        <p>
+           key: 😊represents four children 
+        </p>
+        <p>
+            (ii) Write down the number of children whose favourite musical instrument is:
+            (a) Guitar  (b) Drum  (c) Keyboard  (d) Flute
+        </p>
+        <p>
+            (iii) Discuss and compare with other groups.
+        </p>
+    </activity>
+    </subsection>
+    <p>Learning point</p>
+    <p>
+        A pictograph is a representation of data using images, icons and symbols.
+    </p>
+    <example>
+        <p>
+            The following pictograph shows the number of students who were absent from a class in a given week.
+        </p>
+        <table>
+            <title></title>
+            <tabular left="medium" right="medium" top="medium" bottom="medium">
+                <row halign="center" header="yes">
+                    <cell>Days</cell>
+                    <cell>Number of absentees</cell>
+                </row>
+                <row>
+                    <cell>Monday</cell>
+                    <cell>🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼</cell>
+                </row>
+                <row>
+                    <cell>Tuesday</cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Wednesday</cell>
+                    <cell>🧍🏼🧍🏼</cell>
+                </row>
+                <row>
+                    <cell>Thursday</cell>
+                    <cell>🧍🏼🧍🏼🧍🏼</cell>
+                </row>
+                <row>
+                    <cell>Friday</cell>
+                    <cell>🧍🏼</cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            Key: 🧍🏼represents one student
+        </p>
+        <p>
+            (a) On which day were the maximum number of students absent?
+        </p>
+        <p>
+            (b) Which day had full attendance?
+        </p>
+        <solution>
+            <p>
+                (a) Monday
+            </p>
+            <p>
+                (b) Tuesday
+            </p>
+        </solution>
+    </example>
+    
+    <example>
+        <p>
+            The table shows the number of students present in a class of 32 in a week.
+        </p>
+        <table>
+            <title></title>
+            <tabular left="medium" right="medium" top="medium" bottom="medium">
+                <row halign="center" header="yes">
+                    <cell>Days</cell>
+                    <cell>Number of students present</cell>
+                </row>
+                <row>
+                    <cell>Monday</cell>
+                    <cell>24</cell>
+                </row>
+                <row>
+                    <cell>Tuesday</cell>
+                    <cell>20</cell>
+                </row>
+                <row>
+                    <cell>Wednesday</cell>
+                    <cell>28</cell>
+                </row> <row>
+                    <cell>Thursday</cell>
+                    <cell>32</cell>
+                </row> <row>
+                    <cell>Friday</cell>
+                    <cell>28</cell>
+                </row>
+
+            </tabular>
+        </table>
+        <p>
+            Represent the information in a pictograph.
+        </p>
+        <solution>
+            <p>
+                Key: 🧍🏼represents 4 students
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Days</cell>
+                        <cell>Number of students present</cell>
+                    </row>
+                    <row>
+                        <cell>Monday</cell>
+                        <cell>🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼</cell>
+                    
+                    </row>
+                    <row>
+                        <cell>Tuesday</cell>
+                        <cell>🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼</cell>
+                    </row>
+                    <row>
+                        <cell>Wednesday</cell>
+                        <cell>🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼</cell>
+                    </row>
+                    <row>
+                        <cell>Thursday</cell>
+                        <cell>🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼</cell>
+                    </row>
+                    <row>
+                        <cell>Friday</cell>
+                        <cell>🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼🧍🏼</cell>
+                    </row>
+                </tabular>
+            </table>
+        </solution>
+    </example>
+    <!-- <subsection xml:id="subsec-Bar-graphs-of-data">
+        <title>Bar graphs of data</title>
+        <activity>
+            <p>
+                Work in groups
+            </p>
+            <p>
+                Bar graph is a visual representation of data where individual bars (rectangular shapes) are used to represent the values or frequencies of different categories.
+            </p>
+            <p>
+                The length or height of each bar corresponds to the value it represents, making it easy to compare different categories.
+            </p>
+            <p>
+                (i) Consider the table below showing the number of loaves of bread sold in a school canteen in a week.
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Day</cell>
+                        <cell>Monday</cell>
+                        <cell>Tuesday</cell>
+                        <cell>Wednesday</cell>
+                        <cell>Thursday</cell>
+                        <cell>Friday</cell>
+                    </row>
+                    <row>
+                        <cell>Number of leaves sold</cell>
+                        <cell>100</cell>
+                        <cell>250</cell>
+                        <cell>200</cell>
+                        <cell>150</cell>
+                        <cell>300</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                (ii) Choose a suitable scale to represent the data on a graph.
+            </p>
+            <p>
+                (iii) Using bars, represent the data on a graph.
+            </p>
+            <p>
+                (iii) Compare and discuss with other groups.
+            </p>
+        </activity>
+        
+    </subsection> -->
+    
+    
+    <subsection xml:id="subsec-Pie-charts-of-data">
+        <title>Pie charts of data</title>
+        <activity>
+            <p>
+                work in groups
+            </p>
+            <p>
+                (i) Consider the table below
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                  <row halign="left" header="yes">
+                        <cell>Mode of Transport</cell>
+                        <cell>Bus</cell>
+                        <cell>Bicycle</cell>
+                        <cell>On foot</cell>
+                        <cell>Car</cell>
+                   </row>
+                   <row>
+                        <cell>Number of students</cell>
+                        <cell>200</cell>
+                        <cell>100</cell>
+                        <cell>80</cell>
+                        <cell>20</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+               (ii) Draw a circle of suitable radius.
+           </p>
+           <p>
+               (iii) Divide the circle into sectors to represent the information.
+           </p>
+           <p>
+            (iv) Compare and discuss with other groups.
+           </p>
+        </activity>
+        <p>
+            Learning point
+        </p>
+        <ul>
+            <li>
+                <p>
+                    Frequency is represented by the size of a sector in a pie chart.
+                </p>
+            </li>
+        </ul>
+    
+   
+        <example>
+            <p>
+                The Table below shows different types of animals kept by a farmer.
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                   <row halign="left" header="yes">
+                        <cell>Animals</cell>
+                        <cell>Cows</cell>
+                        <cell>Goats</cell>
+                        <cell>Sheep</cell>
+                        <cell>Pigs</cell>
+                    </row>
+                    <row>
+                        <cell>Number of animals</cell>
+                        <cell>12</cell>
+                        <cell>24</cell>
+                        <cell>18</cell>
+                        <cell>6</cell>
+                   </row>
+                </tabular>
+            </table>
+            <p>
+                Draw a pie chart to represent this information
+            </p>
+            <solution>
+                <p>
+                    The total angle at the centre of a circle is <m>360^\circ</m>. The central angles of sectors representing the animals are fractions of <m>360^\circ</m>.
+                    The total number of animals in the farm is 12+24+18+6 = 60.
+                </p>
+                <table>
+                    <title></title>
+                    <tabular left="medium" right="medium" top="medium" bottom="medium">
+                        <row halign="left" header="yes">
+                            <cell>Animal</cell>
+                            <cell>No. of animals</cell>
+                            <cell>Fraction</cell>
+                            <cell>Fraction of 360 degrees</cell>
+                        </row>
+                        <row>
+                            <cell>Cows</cell>
+                            <cell><m>12</m></cell>
+                            <cell><m>\frac{1}{5}</m></cell>
+                            <cell><m>\frac{1}{5}\times360^\circ = 72^\circ </m></cell>
+                        </row>
+                        <row>
+                            <cell>Goats</cell>
+                            <cell><m>24</m></cell>
+                            <cell><m>\frac{2}{5}</m></cell>
+                            <cell><m>\frac{2}{5}\times360^\circ = 144^\circ</m></cell>
+                        </row>
+                        <row>
+                            <cell>Sheep</cell>
+                            <cell><m>18</m></cell>
+                            <cell><m>\frac{3}{10}</m></cell>
+                            <cell><m>\frac{3}{10}\times360^\circ = 108^\circ</m></cell>
+                        </row>
+                        <row>
+                            <cell>Pigs</cell>
+                            <cell><m>6</m></cell>
+                            <cell><m>\frac{1}{10}</m></cell>
+                            <cell><m>\frac{1}{10}\times360^\circ = 36^\circ</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <image>
+                <latex-image>
+                   \begin{tikzpicture}
+                      % Define the radius of the pie chart
+                      \def\pieRadius{3cm}
+
+                      % Segment 1: Goats (144 degrees)
+                      \fill[purple!60] (0,0) -- (0:\pieRadius) arc[start angle=0, end angle=144, radius=\pieRadius] -- cycle;
+                      \node[text width=3cm, align=center] at (72:2.2cm) {\textbf{Goats}\\144°};
+
+                      % Segment 2: Sheep (108 degrees)
+                      \fill[orange!60] (0,0) -- (144:\pieRadius) arc[start angle=144, end angle=252, radius=\pieRadius] -- cycle;
+                      \node[text width=3cm, align=center] at (198:2.2cm) {\textbf{Sheep}\\108°};
+
+                      % Segment 3: Pigs (36 degrees)
+                      \fill[green!60] (0,0) -- (252:\pieRadius) arc[start angle=252, end angle=288, radius=\pieRadius] -- cycle;
+                      \node[text width=3cm, align=center] at (270:2cm) {\textbf{Pigs}\\36°};
+
+                      % Segment 4: Cows (72 degrees)
+                      \fill[pink!60] (0,0) -- (288:\pieRadius) arc[start angle=288, end angle=360, radius=\pieRadius] -- cycle;
+                      \node[text width=3cm, align=center] at (324:2.2cm) {\textbf{Cows}\\72°};
+
+                      % Optional: Add a title below the pie chart
+                      \node[below] at (0,-3.8) {\Large Pie Chart of Livestock Types};
+                    \end{tikzpicture}
+                </latex-image>  
+                </image>
+            </solution>
+        </example>
+    </subsection>
+    <subsection xml:id="subsec-Interpretation-of-pie-charts">
+        <title>Interpretation of pie charts</title>
+        <activity>
+            <p>
+                Work in groups
+            </p>
+            <p>
+                (i) Consider the pie chart representing different types of crops planted in a 6 hectare farm shown.
+            </p>
+            <image>
+            <latex-image>
+                \begin{tikzpicture}
+                    % Define the radius of the pie chart
+                    \def\pieRadius{3cm}
+
+                    % Segment 1: Millet (120 degrees)
+                    \fill[blue!60] (0,0) -- (0:\pieRadius) arc[start angle=0, end angle=120, radius=\pieRadius] -- cycle;
+                    \node[text width=3cm, align=center] at (60:2.2cm) {\textbf{Millet}\\120°};
+
+                    % Segment 2: Potatoes (30 degrees)
+                    \fill[red!60] (0,0) -- (120:\pieRadius) arc[start angle=120, end angle=150, radius=\pieRadius] -- cycle;
+                    \node[text width=3cm, align=center] at (135:2cm) {\textbf{Rice}\\30°};
+
+                    % Segment 3: Maize (150 degrees)
+                    \fill[green!60] (0,0) -- (150:\pieRadius) arc[start angle=150, end angle=300, radius=\pieRadius] -- cycle;
+                    \node[text width=3cm, align=center] at (225:2.2cm) {\textbf{Maize}\\150°};
+
+                    % Segment 4: Beans (60 degrees)
+                    \fill[yellow!60] (0,0) -- (300:\pieRadius) arc[start angle=300, end angle=360, radius=\pieRadius] -- cycle;
+                    \node[text width=3cm, align=center] at (330:2.2cm) {\textbf{Beans}\\60°};
+
+                    % Optional: Add a title below the pie chart
+                    \node[below] at (0,-3.8) {\Large Pie Chart representing different types of Crop };
+                    
+                \end{tikzpicture}
+            </latex-image> 
+            </image>
+            <p>
+                (ii) Find and record the information represented in the pie chart.
+            </p>
+            <p>
+                (iii) Discuss and share with other groups.
+            </p>
+        </activity>
+        
+        <p>
+            Learning point
+        </p>
+        <ul>
+            <li>
+                <p>
+                    Information represented in a pie chart is obtained using the total number of items represented and the angles expressed as fractions of <m>360^\circ</m>.
+                </p>
+            </li>
+        </ul>
+        <example>
+            <p>
+                The pie chart shows types of vehicles that passed by a school gate within one hour.
+            </p>
+            <image>
+            <latex-image>
+                \begin{tikzpicture}
+                 % Define the radius of the pie chart
+                 \def\pieRadius{3cm}
+
+                 % Segment 1: Cars (150 degrees)
+                 \fill[blue!60] (0,0) -- (0:\pieRadius) arc[start angle=0, end angle=150, radius=\pieRadius] -- cycle;
+                 \node[text width=3cm, align=center] at (75:2.2cm) {\textbf{Cars}\\150°};
+
+                 % Segment 2: Lorries (120 degrees)
+                 \fill[red!60] (0,0) -- (150:\pieRadius) arc[start angle=150, end angle=270, radius=\pieRadius] -- cycle;
+                 \node[text width=3cm, align=center] at (195:2.2cm) {\textbf{Lorries}\\120°};
+
+                 % Segment 3: Pickups (90 degrees)
+                 \fill[green!60] (0,0) -- (270:\pieRadius) arc[start angle=270, end angle=360, radius=\pieRadius] -- cycle;
+                 \node[text width=3cm, align=center] at (315:2.2cm) {\textbf{Pickups}\\90°};
+
+                 % Optional: Add a title below the pie chart
+                 \node[below] at (0,-3.8) {\Large Pie Chart representing types of vehicles};
+                \end{tikzpicture}
+            </latex-image>
+            </image>
+            <p>
+                If the number of vehicles that passed by the school were 72, find how many lorries, pickups and cars passed by the school gate.
+            </p>
+            <solution>
+                <p>
+                    The number of lorries were <m>\frac{120}{360}\times 72=24</m>
+                </p>
+                <p>
+                    The number of pick ups were <m>\frac{90}{360}\times 72=18</m>
+                </p>
+                <p>
+                    The number of cars were <m>\frac{150}{360}\times 72=30</m>
+                </p>
+            </solution>
+        </example>
+    </subsection>
+    <subsection xml:id="subsec-bar-graphs-of-data">
+        <title>Bar graphs of data</title>
+        <activity>
+            <p>
+                Work in groups
+            </p>
+            <p>
+                Bar graph is a visual representation of data where individual bars (rectangular shapes) are used to represent the values or frequencies of different categories.
+            </p>
+            <p>
+                The length or height of each bar corresponds to the value it represents, making it easy to compare different categories.
+            </p>
+            <p>
+                (i) Consider the table below showing the number of loaves of bread sold in a school canteen in a week.
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Day</cell>
+                        <cell>Monday</cell>
+                        <cell>Tuesday</cell>
+                        <cell>Wednesday</cell>
+                        <cell>Thursday</cell>
+                        <cell>Friday</cell>
+                    </row>
+                    <row>
+                        <cell>Number of leaves sold</cell>
+                        <cell>100</cell>
+                        <cell>250</cell>
+                        <cell>200</cell>
+                        <cell>150</cell>
+                        <cell>300</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                (ii) Choose a suitable scale to represent the data on a graph.
+            </p>
+            <p>
+                (iii) Using bars, represent the data on a graph.
+            </p>
+            <p>
+                (iii) Compare and discuss with other groups.
+            </p>
+        </activity>
+    </subsection>
+        <example>
+            <p>
+                The table below shows monthly expenses of a household in a certain month.
+            </p>
+            <table>
+                <title>Monthly expenses of a household in a certain month</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Item</cell>
+                        <cell>Expenditure (Ksh)</cell>
+                    </row>
+                    <row>
+                        <cell>House Rent</cell>
+                        <cell>3000</cell>
+                    </row>
+                    <row>
+                        <cell>Food</cell>
+                        <cell>3500</cell>
+                    </row>
+                    <row>
+                        <cell>Education</cell>
+                        <cell>2000</cell>
+                    </row>
+                    <row>
+                        <cell>Electricity</cell>
+                        <cell>500</cell>
+                    </row>
+                    <row>
+                        <cell>Transport</cell>
+                        <cell>1500</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Represent the data on a bar graph
+            </p>
+            <solution>
+                <p>
+                    (i) Choose a suitable scale for the length of bars, for example, let 1cm represent Ksh. 500.
+                </p>
+                <p>
+                    Work out the Lenghth of the bars as shown.
+                </p>
+                <table>
+                    <title>Frequency table</title>
+                    <tabular left="medium" right="medium" top="medium" bottom="medium">
+                        <row halign="left" header="yes">
+                            <cell>Items</cell>
+                            <cell>Expenditure (Ksh.)</cell>
+                            <cell>No. of squares making the height</cell>
+                        </row>
+                        <row>
+                            <cell>House rent</cell>
+                            <cell>3000</cell>
+                            <cell>6</cell>
+                        </row>
+                        <row>
+                            <cell>Food</cell>
+                            <cell>3500</cell>
+                            <cell>7</cell>
+                        </row>
+                        <row>
+                            <cell>Education</cell>
+                            <cell>2000</cell>
+                            <cell>4</cell>
+                        </row>
+                        <row>
+                            <cell>Electricity</cell>
+                            <cell>500</cell>
+                            <cell>1</cell>
+                        </row>
+                        <row>
+                            <cell>Transport</cell>
+                            <cell>1500</cell>
+                            <cell>3</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p>
+                    Draw a bar graph for the data.
+                </p>
+                <image>
+                <latex-image>
+                \begin{tikzpicture}
+                     \begin{axis}[
+                        symbolic x coords={House rent, Food, Education, Electricity, Transport},
+                        ylabel=Expenditure (Ksh.),
+                        xlabel=Monthly Expenses,
+                        xlabel style={yshift=-45pt},
+                        enlargelimits=0.15,
+                        enlarge x limits=0.2,
+                        legend style={at={(5.2,-0.25)},
+                        anchor=south,legend columns=-1},
+                        ybar,
+                        xtick=data,
+                        xticklabel style={rotate=90, anchor=east, yshift=-10pt},
+                        ymax=4000,
+                        bar width=30pt,
+                    ]
+                    \addplot coordinates {(House rent,3000) (Food,3500)(Education,2000)(Electricity,500)(Transport,1500)};
+                    \end{axis}
+                \end{tikzpicture}
+                </latex-image>
+        
+                </image>
+
+            </solution>
+        </example>
+
+        <example>
+            <p>
+                The bar graph shown represents favourite games for a number of learners.
+            </p>
+            <image>
+            <latex-image>
+                \begin{tikzpicture}
+                    \begin{axis}[
+                        symbolic x coords={Soccer, Netball, Volleyball,Handball},
+                        ylabel=Number of students,
+                        xlabel=Years,
+                        enlargelimits=0.15,
+                        legend style={at={(1.5,-0.25)},
+                        anchor=north,legend columns=-1},
+                        ybar,
+                        bar width=30pt,
+                    ]
+                    \addplot coordinates {(Soccer,15) (Netball,10)(Volleyball,20)(Handball,18)};
+                    \end{axis}
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+            <ol>
+                <li> <p>Find the number of learners whose favourites game was: </p>
+                <ol type="a">
+                    <li>Soccer</li>
+                    <li>Netball</li>
+                    <li>Volleyball</li>
+                    <li>Handball</li>            
+                </ol>
+                </li>
+                <li>Find the total number of learners whose favourite game was soccer, netball,volleyball or handball</li>
+            </ol>
+            <solution>
+                <ol>
+                    <li>
+                        <ol type="a">
+                            <li>15 learners</li>
+                            <li>10 Learners</li>
+                            <li>20 Learners</li>       
+                        </ol>
+                    </li>
+                    <li>45 Learners</li>
+                </ol>
+            </solution>
+        </example>
+        <example>
+            <p>
+                The table shown represents the sale of motorcycles by a company from the month of June to December 2021
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Month</cell>
+                        <cell>June</cell>
+                        <cell>July</cell>
+                        <cell>Aug.</cell>
+                        <cell>Sept.</cell>
+                        <cell>Oct.</cell>
+                        <cell>Nov</cell>
+                        <cell>Dec.</cell>
+                    </row>
+                    <row>
+                        <cell>No. of motocycles</cell>
+                        <cell>10</cell>
+                        <cell>40</cell>
+                        <cell>30</cell>
+                        <cell>20</cell>
+                        <cell>30</cell>
+                        <cell>40</cell>
+                        <cell>50</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Draw a line graph to represent the information
+            </p>
+            <solution>
+                <image>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \begin{axis}[
+                            xlabel={Month},
+                            ylabel={Number of Motocycles},
+                            xtick=data,
+                            xticklabels={June, July, Aug, Sept, Oct, Nov, Dec},
+                            ymin=0, ymax=60,
+                            xmin=1, xmax=8,
+                            grid=both,
+                            ytick={0, 10, 20, 30, 40, 50, 60}, 
+                            grid=both,
+                            mark options={solid}
+                        ]
+
+                        \addplot[
+                            color=blue,
+                            mark=square*,
+                            thick
+                        ] coordinates {
+                            (1,10)
+                            (2,40)
+                            (3,30)
+                            (4,20)
+                            (5,30)
+                            (6,40)
+                            (7,50)
+                        };
+
+                        \end{axis}
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </solution>
+        </example>
+</section>
