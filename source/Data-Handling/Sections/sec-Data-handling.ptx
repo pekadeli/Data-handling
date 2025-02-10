@@ -353,7 +353,7 @@
         <title>Pictographs of data</title>
         <p>
             A pictograph is a type of data visualization that uses pictures or symbols to represent and convey data.
-        </p>
+        </p> 
         <p>
             Each picture or symbol typically represents a specific quantity or value, making it easier to understand and interpret data.
         </p>
@@ -526,17 +526,17 @@
             </table>
         </solution>
     </example>
-    <!-- <subsection xml:id="subsec-Bar-graphs-of-data">
+    <subsection xml:id="subsec-Bar-graphs-of-data">
         <title>Bar graphs of data</title>
+           <p>
+            Bar graph is a visual representation of data where individual bars (rectangular shapes) are used to represent the values or frequencies of different categories.
+        </p>
+        <p>
+            The length or height of each bar corresponds to the value it represents, making it easy to compare different categories.
+        </p>
         <activity>
             <p>
                 Work in groups
-            </p>
-            <p>
-                Bar graph is a visual representation of data where individual bars (rectangular shapes) are used to represent the values or frequencies of different categories.
-            </p>
-            <p>
-                The length or height of each bar corresponds to the value it represents, making it easy to compare different categories.
             </p>
             <p>
                 (i) Consider the table below showing the number of loaves of bread sold in a school canteen in a week.
@@ -572,12 +572,167 @@
                 (iii) Compare and discuss with other groups.
             </p>
         </activity>
+        <example>
+            <p>
+                The table below shows monthly expenses of a household in a certain month.
+            </p>
+            <table>
+                <title>Monthly expenses of a household in a certain month</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Item</cell>
+                        <cell>Expenditure (Ksh)</cell>
+                    </row>
+                    <row>
+                        <cell>House Rent</cell>
+                        <cell>3000</cell>
+                    </row>
+                    <row>
+                        <cell>Food</cell>
+                        <cell>3500</cell>
+                    </row>
+                    <row>
+                        <cell>Education</cell>
+                        <cell>2000</cell>
+                    </row>
+                    <row>
+                        <cell>Electricity</cell>
+                        <cell>500</cell>
+                    </row>
+                    <row>
+                        <cell>Transport</cell>
+                        <cell>1500</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Represent the data on a bar graph
+            </p>
+            <solution>
+                <p>
+                    (i) Choose a suitable scale for the length of bars, for example, let 1cm represent Ksh. 500.
+                </p>
+                <p>
+                    Work out the Lenghth of the bars as shown.
+                </p>
+                <table>
+                    <title>Frequency table</title>
+                    <tabular left="medium" right="medium" top="medium" bottom="medium">
+                        <row halign="left" header="yes">
+                            <cell>Items</cell>
+                            <cell>Expenditure (Ksh.)</cell>
+                            <cell>No. of squares making the height</cell>
+                        </row>
+                        <row>
+                            <cell>House rent</cell>
+                            <cell>3000</cell>
+                            <cell>6</cell>
+                        </row>
+                        <row>
+                            <cell>Food</cell>
+                            <cell>3500</cell>
+                            <cell>7</cell>
+                        </row>
+                        <row>
+                            <cell>Education</cell>
+                            <cell>2000</cell>
+                            <cell>4</cell>
+                        </row>
+                        <row>
+                            <cell>Electricity</cell>
+                            <cell>500</cell>
+                            <cell>1</cell>
+                        </row>
+                        <row>
+                            <cell>Transport</cell>
+                            <cell>1500</cell>
+                            <cell>3</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p>
+                    Draw a bar graph for the data.
+                </p>
+                <image>
+                <latex-image>
+                \begin{tikzpicture}
+                     \begin{axis}[
+                        symbolic x coords={House rent, Food, Education, Electricity, Transport},
+                        ylabel=Expenditure (Ksh.),
+                        xlabel=Monthly Expenses,
+                        xlabel style={yshift=-45pt},
+                        enlargelimits=0.15,
+                        enlarge x limits=0.2,
+                        legend style={at={(5.2,-0.25)},
+                        anchor=south,legend columns=-1},
+                        ybar,
+                        xtick=data,
+                        xticklabel style={rotate=90, anchor=east, yshift=-10pt},
+                        ymax=4000,
+                        bar width=30pt,
+                    ]
+                    \addplot coordinates {(House rent,3000) (Food,3500)(Education,2000)(Electricity,500)(Transport,1500)};
+                    \end{axis}
+                \end{tikzpicture}
+                </latex-image>
         
-    </subsection> -->
-    
-    
+                </image>
+
+            </solution>
+        </example>
+        <example>
+            <p>
+                The bar graph shown represents favourite games for a number of learners.
+            </p>
+            <image>
+            <latex-image>
+                \begin{tikzpicture}
+                    \begin{axis}[
+                        symbolic x coords={Soccer, Netball, Volleyball,Handball},
+                        ylabel=Number of students,
+                        xlabel=Years,
+                        enlargelimits=0.15,
+                        legend style={at={(1.5,-0.25)},
+                        anchor=north,legend columns=-1},
+                        ybar,
+                        bar width=30pt,
+                    ]
+                    \addplot coordinates {(Soccer,15) (Netball,10)(Volleyball,20)(Handball,18)};
+                    \end{axis}
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+            <ol>
+                <li> <p>Find the number of learners whose favourites game was: </p>
+                <ol type="a">
+                    <li>Soccer</li>
+                    <li>Netball</li>
+                    <li>Volleyball</li>
+                    <li>Handball</li>            
+                </ol>
+                </li>
+                <li>Find the total number of learners whose favourite game was soccer, netball,volleyball or handball</li>
+            </ol>
+            <solution>
+                <ol>
+                    <li>
+                        <ol type="a">
+                            <li>15 learners</li>
+                            <li>10 Learners</li>
+                            <li>20 Learners</li>       
+                        </ol>
+                    </li>
+                    <li>45 Learners</li>
+                </ol>
+            </solution>
+        </example>
+    </subsection>
     <subsection xml:id="subsec-Pie-charts-of-data">
         <title>Pie charts of data</title>
+        <p>
+            A pie chart is a type of graph representing data in a circular form, with each slice of the circle representing a fraction or proportionate part of the whole. All slices of the pie add up to make the whole equaling 100 percent and 360 degrees.
+        </p>
         <activity>
             <p>
                 work in groups
@@ -820,209 +975,69 @@
             </solution>
         </example>
     </subsection>
-    <subsection xml:id="subsec-bar-graphs-of-data">
-        <title>Bar graphs of data</title>
+    <subsection xml:id="subsec-Line-graphs-of-data">
+        <title>Line graphs of data</title>
+        <p>
+            Line graph of data is a visual representation of data where individual data points are connected by straight lines, showing how a variable changes over time or across a continuous scale, typically with the horizontal axis representing time and the vertical axis representing the measured values.
+        </p>
+        <p>
+            It is used to identify trends and patterns in data over a period of time.
+        </p>
         <activity>
             <p>
                 Work in groups
             </p>
-            <p>
-                Bar graph is a visual representation of data where individual bars (rectangular shapes) are used to represent the values or frequencies of different categories.
-            </p>
-            <p>
-                The length or height of each bar corresponds to the value it represents, making it easy to compare different categories.
-            </p>
-            <p>
-                (i) Consider the table below showing the number of loaves of bread sold in a school canteen in a week.
-            </p>
-            <table>
-                <title></title>
-                <tabular left="medium" right="medium" top="medium" bottom="medium">
-                    <row halign="left" header="yes">
-                        <cell>Day</cell>
-                        <cell>Monday</cell>
-                        <cell>Tuesday</cell>
-                        <cell>Wednesday</cell>
-                        <cell>Thursday</cell>
-                        <cell>Friday</cell>
-                    </row>
-                    <row>
-                        <cell>Number of leaves sold</cell>
-                        <cell>100</cell>
-                        <cell>250</cell>
-                        <cell>200</cell>
-                        <cell>150</cell>
-                        <cell>300</cell>
-                    </row>
-                </tabular>
-            </table>
-            <p>
-                (ii) Choose a suitable scale to represent the data on a graph.
-            </p>
-            <p>
-                (iii) Using bars, represent the data on a graph.
-            </p>
-            <p>
-                (iii) Compare and discuss with other groups.
-            </p>
-        </activity>
-    </subsection>
-        <example>
-            <p>
-                The table below shows monthly expenses of a household in a certain month.
-            </p>
-            <table>
-                <title>Monthly expenses of a household in a certain month</title>
-                <tabular left="medium" right="medium" top="medium" bottom="medium">
-                    <row halign="left" header="yes">
-                        <cell>Item</cell>
-                        <cell>Expenditure (Ksh)</cell>
-                    </row>
-                    <row>
-                        <cell>House Rent</cell>
-                        <cell>3000</cell>
-                    </row>
-                    <row>
-                        <cell>Food</cell>
-                        <cell>3500</cell>
-                    </row>
-                    <row>
-                        <cell>Education</cell>
-                        <cell>2000</cell>
-                    </row>
-                    <row>
-                        <cell>Electricity</cell>
-                        <cell>500</cell>
-                    </row>
-                    <row>
-                        <cell>Transport</cell>
-                        <cell>1500</cell>
-                    </row>
-                </tabular>
-            </table>
-            <p>
-                Represent the data on a bar graph
-            </p>
-            <solution>
-                <p>
-                    (i) Choose a suitable scale for the length of bars, for example, let 1cm represent Ksh. 500.
-                </p>
-                <p>
-                    Work out the Lenghth of the bars as shown.
-                </p>
-                <table>
-                    <title>Frequency table</title>
-                    <tabular left="medium" right="medium" top="medium" bottom="medium">
-                        <row halign="left" header="yes">
-                            <cell>Items</cell>
-                            <cell>Expenditure (Ksh.)</cell>
-                            <cell>No. of squares making the height</cell>
-                        </row>
-                        <row>
-                            <cell>House rent</cell>
-                            <cell>3000</cell>
-                            <cell>6</cell>
-                        </row>
-                        <row>
-                            <cell>Food</cell>
-                            <cell>3500</cell>
-                            <cell>7</cell>
-                        </row>
-                        <row>
-                            <cell>Education</cell>
-                            <cell>2000</cell>
-                            <cell>4</cell>
-                        </row>
-                        <row>
-                            <cell>Electricity</cell>
-                            <cell>500</cell>
-                            <cell>1</cell>
-                        </row>
-                        <row>
-                            <cell>Transport</cell>
-                            <cell>1500</cell>
-                            <cell>3</cell>
-                        </row>
-                    </tabular>
-                </table>
-                <p>
-                    Draw a bar graph for the data.
-                </p>
-                <image>
-                <latex-image>
-                \begin{tikzpicture}
-                     \begin{axis}[
-                        symbolic x coords={House rent, Food, Education, Electricity, Transport},
-                        ylabel=Expenditure (Ksh.),
-                        xlabel=Monthly Expenses,
-                        xlabel style={yshift=-45pt},
-                        enlargelimits=0.15,
-                        enlarge x limits=0.2,
-                        legend style={at={(5.2,-0.25)},
-                        anchor=south,legend columns=-1},
-                        ybar,
-                        xtick=data,
-                        xticklabel style={rotate=90, anchor=east, yshift=-10pt},
-                        ymax=4000,
-                        bar width=30pt,
-                    ]
-                    \addplot coordinates {(House rent,3000) (Food,3500)(Education,2000)(Electricity,500)(Transport,1500)};
-                    \end{axis}
-                \end{tikzpicture}
-                </latex-image>
-        
-                </image>
-
-            </solution>
-        </example>
-
-        <example>
-            <p>
-                The bar graph shown represents favourite games for a number of learners.
-            </p>
-            <image>
-            <latex-image>
-                \begin{tikzpicture}
-                    \begin{axis}[
-                        symbolic x coords={Soccer, Netball, Volleyball,Handball},
-                        ylabel=Number of students,
-                        xlabel=Years,
-                        enlargelimits=0.15,
-                        legend style={at={(1.5,-0.25)},
-                        anchor=north,legend columns=-1},
-                        ybar,
-                        bar width=30pt,
-                    ]
-                    \addplot coordinates {(Soccer,15) (Netball,10)(Volleyball,20)(Handball,18)};
-                    \end{axis}
-                \end{tikzpicture}
-            </latex-image>
-                
-            </image>
             <ol>
-                <li> <p>Find the number of learners whose favourites game was: </p>
-                <ol type="a">
-                    <li>Soccer</li>
-                    <li>Netball</li>
-                    <li>Volleyball</li>
-                    <li>Handball</li>            
-                </ol>
+                <li>
+                    <p>
+                        Consider the table shown on the amount of recorded rainfall in a place for a period of six months.
+                    </p>
+                    <table>
+                        <title>Amount of Rainfall for a period of six months</title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium" >
+                            <row halign="left" header="yes">
+                                <cell>Month</cell>
+                                <cell>Jan.</cell>
+                                <cell>Feb.</cell>
+                                <cell>March.</cell>
+                                <cell>April.</cell>
+                                <cell>May.</cell>
+                                <cell>June.</cell>
+                            </row>
+                            <row>
+                                <cell>Amount of Rainfall(mm)</cell>
+                                <cell>50</cell>
+                                <cell>70</cell>
+                                <cell>80</cell>
+                                <cell>150</cell>
+                                <cell>140</cell>
+                                <cell>110</cell>
+                            </row>
+                        </tabular>
+                    </table>
                 </li>
-                <li>Find the total number of learners whose favourite game was soccer, netball,volleyball or handball</li>
+                <li>
+                    <p>
+                        Represent the information on a line graph.
+                    </p>
+                </li>
+                 <li>
+                    <p>
+                        Share and discuss with other groups.
+                    </p>
+                </li>
             </ol>
-            <solution>
-                <ol>
-                    <li>
-                        <ol type="a">
-                            <li>15 learners</li>
-                            <li>10 Learners</li>
-                            <li>20 Learners</li>       
-                        </ol>
-                    </li>
-                    <li>45 Learners</li>
-                </ol>
-            </solution>
-        </example>
+        </activity>
+        <p>
+            Learning point
+        </p>
+        <ul>
+            <li>
+                <p>
+                    In line graphs, points are connected with straight lines to represent changes in values over a period of time.
+                </p>
+            </li>
+        </ul>
         <example>
             <p>
                 The table shown represents the sale of motorcycles by a company from the month of June to December 2021
@@ -1056,41 +1071,113 @@
                 Draw a line graph to represent the information
             </p>
             <solution>
+                <p>
+                    Scale 1 cm represents 10 motorcycles.
+                </p>
                 <image>
-                <latex-image>
-                    \begin{tikzpicture}
-                        \begin{axis}[
-                            xlabel={Month},
-                            ylabel={Number of Motocycles},
-                            xtick=data,
-                            xticklabels={June, July, Aug, Sept, Oct, Nov, Dec},
-                            ymin=0, ymax=60,
-                            xmin=1, xmax=8,
-                            grid=both,
-                            ytick={0, 10, 20, 30, 40, 50, 60}, 
-                            grid=both,
-                            mark options={solid}
-                        ]
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}[
+                               xlabel={Month},
+                               ylabel={Number of Motocycles},
+                               xtick=data,
+                               xticklabels={June, July, Aug, Sept, Oct, Nov, Dec},
+                               ymin=0, ymax=60,
+                               xmin=1, xmax=8,
+                               grid=both,
+                               ytick={0, 10, 20, 30, 40, 50, 60}, 
+                               grid=both,
+                               mark options={solid}
+                            ]
 
-                        \addplot[
-                            color=blue,
-                            mark=square*,
-                            thick
-                        ] coordinates {
-                            (1,10)
-                            (2,40)
-                            (3,30)
-                            (4,20)
-                            (5,30)
-                            (6,40)
-                            (7,50)
-                        };
-
-                        \end{axis}
-                    \end{tikzpicture}
-                </latex-image>
-                    
+                            \addplot[
+                               color=blue,
+                               mark=square*,
+                               thick
+                            ] coordinates {
+                               (1,10)
+                               (2,40)
+                               (3,30)
+                               (4,20)
+                               (5,30)
+                               (6,40)
+                               (7,50)
+                            };
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
                 </image>
             </solution>
         </example>
-</section>
+        <example>
+            <p>
+                The table below shows recorded average temperature of a place in a week.
+            </p>
+            <table>
+                <title>Average temperature in a week</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="yes">
+                        <cell>Day</cell>
+                        <cell>Mon</cell>
+                        <cell>Tue</cell>
+                        <cell>Wed</cell>
+                        <cell>Thur</cell>
+                        <cell>Fri</cell>
+                        <cell>Sat</cell>
+                        <cell>Sun</cell>
+                    </row>
+                    <row halign="center" header="yes">
+                        <cell>Average temperature</cell>
+                        <cell><m>16.5^\circ C</m></cell>
+                        <cell><m>15^\circ C</m></cell>
+                        <cell><m>17^\circ C</m></cell>
+                        <cell><m>18^\circ C</m></cell>
+                        <cell><m>20^\circ C</m></cell>
+                        <cell><m>15.5^\circ C</m></cell>
+                        <cell><m>14^\circ C</m></cell>
+                    </row>
+                </tabular>
+            </table>
+            <solution>
+                <p>
+                    Scale 1 cm represents <m>5^\circ C</m>
+                </p>
+                <image>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \begin{axis}[
+                               xlabel={Month},
+                               ylabel={Average Temperature in ℃ },
+                               xtick=data,
+                               xticklabels={Mon, Tue, Wed, Thur, Fri, Sat, Sun},
+                               ymin=0, ymax=60,
+                               xmin=1, xmax=8,
+                               grid=both,
+                               ytick={0, 5, 10, 15, 20, 25, 30}, 
+                               grid=both,
+                               mark options={solid}
+                            ]
+
+                            \addplot[
+                               color=blue,
+                               mark=square*,
+                               thick
+                            ] coordinates {
+                               (1,16.5)
+                               (2,15)
+                               (3,17)
+                               (4,18)
+                               (5,20)
+                               (6,15.5)
+                               (7,14)
+                            };
+                            \end{axis}
+                        \end{tikzpicture}
+                    </latex-image>
+                    
+                </image>
+               
+            </solution>
+        </example>
+    </subsection>
+</section> 
