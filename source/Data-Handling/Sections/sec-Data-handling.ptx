@@ -1179,5 +1179,59 @@
                
             </solution>
         </example>
+        <example>
+            <p>
+                A Learner measured changes in the length of a flag post's shadow at different times. She recorded the lengths as shown. Below is a representation of the line graph
+            </p>
+            <table>
+                <title>Time vs Lengths in metres</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row>
+                        <cell>Time</cell>
+                        <cell>7:00 a.m</cell>
+                        <cell>9:00 a.m</cell>
+                        <cell>11:00 a.m</cell>
+                        <cell>1:00 p.m</cell>
+                    </row>
+                    <row>
+                        <cell>Lengths in metres</cell>
+                        <cell>6 m</cell>
+                        <cell>4 m</cell>
+                        <cell>2 m</cell>
+                        <cell>0 m</cell>
+                    </row>
+                </tabular>
+            </table>
+            <image>
+                <latex-image>
+                    \begin{tikzpicture}
+                        % Axes
+                        \draw[->] (0,0) -- (8,0) node[right] {Time};
+                        \draw[->] (0,0) -- (0,7) node[above] {Length (m)};
+
+                        % X-axis labels
+                        \node at (1, -0.3) {7:00 a.m};
+                        \node at (3, -0.3) {9:00 a.m};
+                        \node at (5, -0.3) {11:00 a.m};
+                        \node at (7, -0.3) {1:00 p.m};
+
+                        % Y-axis labels
+                        \foreach \y in {0,1,2,3,4,5,6} {
+                            \node at (-0.3, \y) {\y};
+                        }
+
+                        % Plot points
+                        \filldraw (1,6) circle (2pt) node[above] {};
+                        \filldraw (3,4) circle (2pt) node[above] {};
+                        \filldraw (5,2) circle (2pt) node[above] {};
+                        \filldraw (7,0) circle (2pt) node[below right] {};
+
+                        % Connect points
+                        \draw[thick, blue] (1,6) -- (3,4) -- (5,2) -- (7,0);
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+        </example>
     </subsection>
 </section> 
