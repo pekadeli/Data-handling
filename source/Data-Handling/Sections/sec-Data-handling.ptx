@@ -225,7 +225,7 @@
        </p>
     <solution>
        <table>
-        <title></title>
+        <title>Frequency distribution table representing tree seedling</title>
         <tabular left="medium" right="medium" top="medium" bottom="medium">
             <row halign="center" header="yes">
                 <cell>Height</cell>
@@ -291,6 +291,86 @@
        </table>
     </solution>
     </example>
+    <example>
+        <p>
+            In a quiz, the marks obtained by 20 students out of 30 are given as follows:
+        </p>
+        <p>
+            12,15,15,29,30,21,30,30,15,17,19,15,20,20,16,21,23,24,23,21
+        </p>
+        <p>
+            Draw a frequency distribution table to represent this information.
+        </p>
+        <solution>
+            <table>
+                <title>Frequency distribution table representing students marks</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="yes">
+                        <cell>Marks</cell>
+                        <cell>Tally</cell>
+                        <cell>Frequency</cell>
+                    </row>
+                    <row>
+                        <cell>12</cell>
+                        <cell>/</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>15</cell>
+                        <cell>////</cell>
+                        <cell>4</cell>
+                    </row>
+                    <row>
+                        <cell>16</cell>
+                        <cell>/</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>17</cell>
+                        <cell>/</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>19</cell>
+                        <cell>/</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>20</cell>
+                        <cell>//</cell>
+                        <cell>2</cell>
+                    </row>
+                    <row>
+                        <cell>21</cell>
+                        <cell>///</cell>
+                        <cell>3</cell>
+                    </row>
+                    <row>
+                        <cell>23</cell>
+                        <cell>//</cell>
+                        <cell>2</cell>
+                    </row>
+                    <row>
+                        <cell>24</cell>
+                        <cell>/</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>29</cell>
+                        <cell>/</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>30</cell>
+                        <cell>///</cell>
+                        <cell>3</cell>
+                    </row>
+                </tabular>
+            </table>
+
+        </solution>
+
+    </example>
    <subsection xml:id="subsec-Suitable-scale-for-graphs-of-data">
     <title>Suitable scale for graphs of data</title>
      <activity>
@@ -346,9 +426,13 @@
     <p>
         Learning point
     </p>
-        <p>
-            A suitable scale should be chosen in such a way that data is easy to plot and easy to read.
-        </p>
+        <ul>
+            <li>
+                <p>
+                     A suitable scale should be chosen in such a way that data is easy to plot and easy to read.
+                </p>
+            </li>
+        </ul>
     <subsection xml:id="subsec-Pictographs-of-data">
         <title>Pictographs of data</title>
         <p>
@@ -400,9 +484,13 @@
     </activity>
     </subsection>
     <p>Learning point</p>
-    <p>
-        A pictograph is a representation of data using images, icons and symbols.
-    </p>
+    <ul>
+        <li>
+            <p>
+                A pictograph is a representation of data using images, icons and symbols.
+            </p>
+        </li>
+    </ul>
     <example>
         <p>
             The following pictograph shows the number of students who were absent from a class in a given week.
@@ -876,6 +964,77 @@
                 </image>
             </solution>
         </example>
+        <example>
+            <p>
+                Murunga is a fruit farmer. The table below shows the number of fruit trees on Murunga's farm.
+            </p>
+            <table>
+                <title>Pie chart to represent the number of trees</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="yes">
+                        <cell>Fruit trees</cell>
+                        <cell>Oranges</cell>
+                        <cell>Lemons</cell>
+                        <cell>Apples</cell>
+                        <cell>Pawpaws</cell>
+                    </row>
+                    <row halign="center" header="yes">
+                        <cell>Number of trees</cell>
+                        <cell>600</cell>
+                        <cell>300</cell>
+                        <cell>150</cell>
+                        <cell>150</cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Draw a pie chart to represent the number of trees.
+            </p>
+            <image>
+                <latex-image>
+                    \begin{tikzpicture}
+                       % Define the radius of the pie chart
+                       \def\pieRadius{3cm}
+
+                       % Segment 1: Oranges (180 degrees)
+                       \fill[green!60] (0,0) -- (0:\pieRadius) arc[start angle=0, end angle=180, radius=\pieRadius] -- cycle;
+                       \node[text width=2cm, align=center] at (90:1.5cm) {\textbf{Oranges}\\180°};
+
+                       % Segment 2: Lemons (90 degrees)
+                       \fill[blue!60] (0,0) -- (180:\pieRadius) arc[start angle=180, end angle=270, radius=\pieRadius] -- cycle;
+                       \node[text width=2cm, align=center] at (225:1.5cm) {\textbf{Lemons}\\90°};
+
+                       % Segment 3: Apples (45 degrees)
+                       \fill[yellow!60] (0,0) -- (270:\pieRadius) arc[start angle=270, end angle=315, radius=\pieRadius] -- cycle;
+                       \node[text width=2cm, align=center] at (292.5:1.5cm) {\textbf{Apples}\\45°};
+
+                       % Segment 4: Pawpaws (45 degrees)
+                       \fill[purple!60] (0,0) -- (315:\pieRadius) arc[start angle=315, end angle=360, radius=\pieRadius] -- cycle;
+                       \node[text width=2cm, align=center] at (337.5:1.5cm) {\textbf{Pawpaws}\\45°};
+
+                       % Optional: Add a title below the pie chart
+                       \node[below] at (0,-3.8) {\Large Pie Chart representing types of fruits};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <solution>
+                <p>
+                    Total number of trees is <m>600</m>+<m>300</m>+<m>150</m>+<m>150</m>=<m>1200</m>
+                </p>
+                <p>
+                    Oranges <m>\frac{600}{1200}\times 360^\circ = 180^\circ</m>
+                </p>
+                <p>
+                    Apples <m>\frac{150}{1200}\times 360^\circ = 45^\circ</m>
+                </p>
+                <p>
+                    Pawpaws <m>\frac{150}{1200}\times 360^\circ = 45^\circ</m>
+                </p>
+                <p>
+                    Lemons <m>\frac{300}{1200}\times 360^\circ = 90^\circ</m>
+                </p>
+            </solution>
+        </example>
     </subsection>
     <subsection xml:id="subsec-Interpretation-of-pie-charts">
         <title>Interpretation of pie charts</title>
@@ -964,13 +1123,81 @@
             </p>
             <solution>
                 <p>
-                    The number of lorries were <m>\frac{120}{360}\times 72=24</m>
+                    The number of lorries were <m>\frac{120^\circ }{360^\circ }\times 72=24</m>
                 </p>
                 <p>
-                    The number of pick ups were <m>\frac{90}{360}\times 72=18</m>
+                    The number of pick ups were <m>\frac{90^\circ }{360^\circ }\times 72=18</m>
                 </p>
                 <p>
-                    The number of cars were <m>\frac{150}{360}\times 72=30</m>
+                    The number of cars were <m>\frac{150^\circ }{360^\circ }\times 72=30</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <p>
+                The pie chart below represents careers that <m>56</m> learners would love to pursue in future.
+            </p>
+            <image>
+                <latex-image>
+                    \begin{tikzpicture}
+                      % Define the radius of the pie chart
+                      \def\pieRadius{3cm}
+
+                      % Segment 1: Medicine (135 degrees)
+                      \fill[blue!60] (0,0) -- (0:\pieRadius) arc[start angle=0, end angle=135, radius=\pieRadius] -- cycle;
+                      \node[text width=2.5cm, align=center] at (67.5:1.5cm) {\textbf{Medicine}\\135°};
+
+                      % Segment 2: Fine Art (45 degrees)
+                      \fill[red!60] (0,0) -- (135:\pieRadius) arc[start angle=135, end angle=180, radius=\pieRadius] -- cycle;
+                      \node[text width=2.5cm, align=center] at (157.5:1.5cm) {\textbf{Fine Art}\\45°};
+
+                      % Segment 3: Teaching (45 degrees)
+                      \fill[green!60] (0,0) -- (180:\pieRadius) arc[start angle=180, end angle=225, radius=\pieRadius] -- cycle;
+                      \node[text width=2.5cm, align=center] at (202.5:1.5cm) {\textbf{Teaching}\\45°};
+
+                      % Segment 4: Law (90 degrees)
+                      \fill[orange!60] (0,0) -- (225:\pieRadius) arc[start angle=225, end angle=315, radius=\pieRadius] -- cycle;
+                      \node[text width=2.5cm, align=center] at (270:1.5cm) {\textbf{Law}\\90°};
+
+                      % Segment 5: Engineering (45 degrees)
+                      \fill[purple!60] (0,0) -- (315:\pieRadius) arc[start angle=315, end angle=360, radius=\pieRadius] -- cycle;
+                      \node[text width=2.5cm, align=center] at (337.5:1.5cm) {\textbf{Engineering}\\45°};
+
+                      % Optional: Add a title below the pie chart
+                      \node[below] at (0,-3.8) {\Large Pie Chart representing fields of study};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                (a) How many learners want to pursue Law?
+            </p>
+            <p>
+                (b) How many learners want to pursue Fine Art?
+            </p>
+            <p>
+                (c) How many learners want to pursue Medicine?
+            </p>
+            <p>
+                (d) How many learners want to pursue Teaching?
+            </p>
+            <solution>
+                <p>
+                    Measure the angle representing each career.
+                </p>
+                <p>
+                    (a) Number of learners who want to pursue Law is <m>\frac{90^\circ }{360^\circ }\times 56=14</m>
+                </p>
+                <p>
+                    (b) Number of learners who want to pursue Fine Art is <m>\frac{45^\circ }{360^\circ }\times 56=7</m>
+                </p>
+                <p>
+                    (c) Number of learners who want to pursue Medicine is <m>\frac{135^\circ }{360^\circ }\times 56=21</m>
+                </p>
+                <p>
+                    (d) Number of learners who want to pursue Teaching is <m>\frac{45^\circ }{360^\circ }\times 56=7</m>
+                </p>
+                <p>
+                    Number of learners who prefer Medicine to Teaching is  <m>21-7=14</m>
                 </p>
             </solution>
         </example>
